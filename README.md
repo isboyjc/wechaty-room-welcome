@@ -68,7 +68,7 @@ reply: [
 const { Wechaty } = require("wechaty")
 const { PuppetPadplus } = require("wechaty-puppet-padplus")
 const Qrterminal = require("qrcode-terminal")
-const WechatyRoomWelcome = require("../index")
+const WechatyRoomWelcome = require("wechaty-room-welcome")
 
 // 初始化 bot
 const bot = new Wechaty({
